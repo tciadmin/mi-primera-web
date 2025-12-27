@@ -1,0 +1,66 @@
+body {
+    font-family: 'Times New Roman', Times;
+    background-color: #eaeaea;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #34db5b;
+    color: rgb(229, 13, 74);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3529b9;
+}
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 250px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+}
